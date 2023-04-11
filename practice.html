@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>E-Learners</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header class="site-navbar light site-navbar-target" role="banner">
+        <div class="container">
+            <div class="row align-items-center position-relative">
+                <div class="col-3">
+                    <div class="site-logo">
+                        <a href="index.html"><strong>E-Learners</strong></a>
+                    </div>
+                </div>
+
+                <div class="col-9 text-right">
+                    <nav class="site-navigation text-right ml-auto d-none d-lg-block" role="navigation">
+                        <ul class="site-menu main-menu js-clone-nav ml-auto ">
+                            <li><a href="index.html" class="nav-link">Home</a></li>
+                            <li class="active"><a href="#" class="nav-link">Courses</a></li>
+                            <li><a href="#" class="nav-link">Blog</a></li>
+                            <li><a href="./About.html" class="nav-link">About</a></li>
+                            <li><a href="contact.html" class="nav-link">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="site-section-cover overlay" style="background-image: url('images/hero_bg.jpg');">
+
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-lg-10 text-center">
+                    <h1>Practical Questions for DBMS</h1>
+                    <p>
+                        <span class="mr-2 mb-2">1hr 24m</span>
+                        <span class="mr-2 mb-2">Advanced</span>
+                        <span class="mr-2 mb-2">Jun 18, 2020</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="site-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">Prepare Sample Data To Practice SQL Skills.</div>
+                <div class="col-lg-8">
+                    <br>
+                    <h3><strong>Worker</strong></h3>
+                    <table class="table table-border">
+                        <thead>
+                            <tr>
+                                <th scope="col">WORKER_ID</th>
+                                <th scope="col">FIRST_NAME</th>
+                                <th scope="col">LAST_NAME</th>
+                                <th scope="col">SALARY</th>
+                                <th scope="col">JONNIG_DATE</th>
+                                <th scope="col">DEPARTMENT</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">001</th>
+                                <td>Monika</td>
+                                <td>Arora</td>
+                                <td>100000</td>
+                                <td>2014-02-20 09:00:00</td>
+                                <td>HR</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">002</th>
+                                <td>Niharika</td>
+                                <td>Verma</td>
+                                <td>80000</td>
+                                <td>2014-06-11 09:00:00</td>
+                                <td>Admin</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">003</th>
+                                <td>Vishal</td>
+                                <td>Singhal</td>
+                                <td>300000</td>
+                                <td>2014-02-20 09:00:00 </td>
+                                <td>HR</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">004</th>
+                                <td>Amitabh</td>
+                                <td>Singh</td>
+                                <td>500000</td>
+                                <td>2014-02-20 09:00:00</td>
+                                <td>Admin</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">005</th>
+                                <td>Vivek</td>
+                                <td>Bhati</td>
+                                <td>500000</td>
+                                <td>2014-06-11 09:00:00</td>
+                                <td>Admin</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">006</th>
+                                <td>Vipul</td>
+                                <td>Diwan</td>
+                                <td>200000</td>
+                                <td>2014-06-11 09:00:00</td>
+                                <td>Account</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">007</th>
+                                <td>Satish</td>
+                                <td>Kumar</td>
+                                <td>75000</td>
+                                <td>2014-01-20 09:00:00</td>
+                                <td>Account</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">008</th>
+                                <td>Geetika</td>
+                                <td>Chauhan</td>
+                                <td>90000</td>
+                                <td>2014-04-11 09:00:00</td>
+                                <td>Admin</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <br>
+
+                    <h3><strong>Bonus</strong></h3>
+                    <table class="table table-border">
+                        <thead>
+                            <tr>
+                                <th scope="col">WORKER_REF_ID</th>
+                                <th scope="col">BONUS_DATE</th>
+                                <th scope="col">BOUNS_AMOUNT</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>2016-02-20 00:00:00</td>
+                                <td>5000</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>2016-06-11 00:00:00</td>
+                                <td>3000</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>2016-02-20 00:00:00</td>
+                                <td>4000</td>
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>2016-02-20 00:00:00</td>
+                                <td>4500</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>2016-06-11 00:00:00</td>
+                                <td>3500</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <br>
+
+                    <h3><strong>Title</strong></h3>
+                    <table class="table table-border">
+                        <thead>
+                            <tr>
+                                <th scope="col">WORKER_REF_ID</th>
+                                <th scope="col">WORKER_TITLE</th>
+                                <th scope="col">AFFECTED_FROM</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>2016-02-20 00:00:00</td>
+                                <td>5000</td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>2016-06-11 00:00:00</td>
+                                <td>3000</td>
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                <td>2016-02-20 00:00:00</td>
+                                <td>4000</td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>2016-02-20 00:00:00</td>
+                                <td>4500</td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>2016-06-11 00:00:00</td>
+                                <td>3500</td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>2016-06-11 00:00:00</td>
+                                <td>3500</td>
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>2016-06-11 00:00:00</td>
+                                <td>3500</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>2016-06-11 00:00:00</td>
+                                <td>3500</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <h4><strong>SQL Query Questions and Answers for Practice.</strong></h4>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div class="col-lg-8">
+                <h6><strong>Q-1. Write an SQL query to fetch “FIRST_NAME” from the Worker table using the alias name "WORKER_NAME".</strong></h6>
+                <h6><strong>Ans.</strong></h6>
+                <p style="font-weight: 400;">The required query is:</p>
+                <p style="background-color: #2E3243; color: #fff; padding: 15px; font-weight: 500;">Select FIRST_NAME AS WORKER_NAME from Worker;</p>
+
+                <br><br>
+                <h6><strong>Q-2. Write an SQL query to fetch “FIRST_NAME” from the Worker table in upper case.</strong></h6>
+                <h6><strong>Ans.</strong></h6>
+                <p style="font-weight: 400;">The required query is:</p>
+                <p style="background-color: #2E3243; color: #fff; padding: 15px; font-weight: 500;">Select upper(FIRST_NAME) from Worker;</p>
+
+                <br><br>
+                <h6><strong>Q-3. Write an SQL query to fetch unique values of DEPARTMENT from the Worker table.</strong></h6>
+                <h6><strong>Ans.</strong></h6>
+                <p style="font-weight: 400;">The required query is:</p>
+                <p style="background-color: #2E3243; color: #fff; padding: 15px; font-weight: 500;">Select distinct DEPARTMENT from Worker;</p>
+
+                <br><br>
+                <h6><strong>Q-4. Write an SQL query to print the first three characters of  FIRST_NAME from the Worker table.</strong></h6>
+                <h6><strong>Ans.</strong></h6>
+                <p style="font-weight: 400;">The required query is:</p>
+                <p style="background-color: #2E3243; color: #fff; padding: 15px; font-weight: 500;">Select substring(FIRST_NAME,1,3) from Worker;</p>
+
+                <br><br>
+                <h6><strong>Q-5. Write an SQL query to find the position of the alphabet (‘a’) in the first name column ‘Amitabh’ from the Worker table.</strong></h6>
+                <h6><strong>Ans.</strong></h6>
+                <p style="font-weight: 400;">The required query is:</p>
+                <p style="background-color: #2E3243; color: #fff; padding: 15px; font-weight: 500;">Select INSTR(FIRST_NAME, BINARY'a') from Worker where FIRST_NAME = 'Amitabh';</p>
+
+                <br><br>
+                <h6><strong>Q-6. Write an SQL query to print the FIRST_NAME from the Worker table after removing white spaces from the right side.</strong></h6>
+                <h6><strong>Ans.</strong></h6>
+                <p style="font-weight: 400;">The required query is:</p>
+                <p style="background-color: #2E3243; color: #fff; padding: 15px; font-weight: 500;">Select RTRIM(FIRST_NAME) from Worker;</p>
+
+                <br><br>
+                <h6><strong>Q-7. Write an SQL query to print the DEPARTMENT from the Worker table after removing white spaces from the left side.</strong></h6>
+                <h6><strong>Ans.</strong></h6>
+                <p style="font-weight: 400;">The required query is:</p>
+                <p style="background-color: #2E3243; color: #fff; padding: 15px; font-weight: 500;">Select LTRIM(DEPARTMENT) from Worker;</p>
+
+                <br><br>
+                <h6><strong>Q-8. Write an SQL query that fetches the unique values of DEPARTMENT from the Worker table and prints its length.</strong></h6>
+                <h6><strong>Ans.</strong></h6>
+                <p style="font-weight: 400;">The required query is:</p>
+                <p style="background-color: #2E3243; color: #fff; padding: 15px; font-weight: 500;">Select distinct length(DEPARTMENT) from Worker;</p>
+
+                <br><br>
+                <h6><strong>Q-9. Write an SQL query to print the FIRST_NAME from the Worker table after replacing ‘a’ with ‘A’.</strong></h6>
+                <h6><strong>Ans.</strong></h6>
+                <p style="font-weight: 400;">The required query is:</p>
+                <p style="background-color: #2E3243; color: #fff; padding: 15px; font-weight: 500;">Select REPLACE(FIRST_NAME,'a','A') from Worker;</p>
+
+                <br><br>
+                <h6><strong>Q-10. Write an SQL query to print the FIRST_NAME and LAST_NAME from the Worker table into a single column COMPLETE_NAME. A space char should separate them.</strong></h6>
+                <h6><strong>Ans.</strong></h6>
+                <p style="font-weight: 400;">The required query is:</p>
+                <p style="background-color: #2E3243; color: #fff; padding: 15px; font-weight: 500;">Select CONCAT(FIRST_NAME, ' ', LAST_NAME) AS 'COMPLETE_NAME' from Worker;</p>
+
+                <br><br>
+                <h6><strong>Q-11. Write an SQL query to print all Worker details from the Worker table order by FIRST_NAME Ascending.</strong></h6>
+                <h6><strong>Ans.</strong></h6>
+                <p style="font-weight: 400;">The required query is:</p>
+                <p style="background-color: #2E3243; color: #fff; padding: 15px; font-weight: 500;">Select * from Worker order by FIRST_NAME asc;</p>
+
+                <br><br>
+                <h6><strong>Q-12. Write an SQL query to print all Worker details from the Worker table order by FIRST_NAME Ascending and DEPARTMENT Descending.</strong></h6>
+                <h6><strong>Ans.</strong></h6>
+                <p style="font-weight: 400;">The required query is:</p>
+                <p style="background-color: #2E3243; color: #fff; padding: 15px; font-weight: 500;">Select * from Worker order by FIRST_NAME asc,DEPARTMENT desc;</p>
+
+                <br><br>
+                <h6><strong>Q-13. Write an SQL query to print details for Workers with the first names “Vipul” and “Satish” from the Worker table.</strong></h6>
+                <h6><strong>Ans.</strong></h6>
+                <p style="font-weight: 400;">The required query is:</p>
+                <p style="background-color: #2E3243; color: #fff; padding: 15px; font-weight: 500;">Select * from Worker where FIRST_NAME in ('Vipul','Satish');</p>
+
+                <br><br>
+                <h6><strong>Q-14. Write an SQL query to print details of workers excluding first names, “Vipul” and “Satish” from the Worker table.</strong></h6>
+                <h6><strong>Ans.</strong></h6>
+                <p style="font-weight: 400;">The required query is:</p>
+                <p style="background-color: #2E3243; color: #fff; padding: 15px; font-weight: 500;">Select * from Worker where FIRST_NAME not in ('Vipul','Satish');</p>
+
+                <br><br>
+                <h6><strong>Q-15. Write an SQL query to print details of Workers with DEPARTMENT name as “Admin”.</strong></h6>
+                <h6><strong>Ans.</strong></h6>
+                <p style="font-weight: 400;">The required query is:</p>
+                <p style="background-color: #2E3243; color: #fff; padding: 15px; font-weight: 500;">Select * from Worker where DEPARTMENT like 'Admin%';</p>
+
+                <br><br>
+                <h6><strong>Q-16. Write an SQL query to print details of the Workers whose FIRST_NAME contains ‘a’.</strong></h6>
+                <h6><strong>Ans.</strong></h6>
+                <p style="font-weight: 400;">The required query is:</p>
+                <p style="background-color: #2E3243; color: #fff; padding: 15px; font-weight: 500;">Select * from Worker where FIRST_NAME like '%a%';</p>
+
+                <br><br>
+                <h6><strong>Q-17. Write an SQL query to print details of the Workers whose FIRST_NAME ends with ‘a’.</strong></h6>
+                <h6><strong>Ans.</strong></h6>
+                <p style="font-weight: 400;">The required query is:</p>
+                <p style="background-color: #2E3243; color: #fff; padding: 15px; font-weight: 500;">Select * from Worker where FIRST_NAME like '%a';</p>
+
+                <br><br>
+                <h6><strong>Q-18. Write an SQL query to print details of the Workers whose FIRST_NAME ends with ‘h’ and contains six alphabets.</strong></h6>
+                <h6><strong>Ans.</strong></h6>
+                <p style="font-weight: 400;">The required query is:</p>
+                <p style="background-color: #2E3243; color: #fff; padding: 15px; font-weight: 500;">Select * from Worker where FIRST_NAME like '_____h';</p>
+
+                <br><br>
+                <h6><strong>Q-19. Write an SQL query to print details of the Workers whose SALARY lies between 100000 and 500000.</strong></h6>
+                <h6><strong>Ans.</strong></h6>
+                <p style="font-weight: 400;">The required query is:</p>
+                <p style="background-color: #2E3243; color: #fff; padding: 15px; font-weight: 500;">Select * from Worker where SALARY between 100000 and 500000;</p>
+
+                <br><br>
+                <h6><strong>Q-20. Write an SQL query to print details of the Workers who joined in Feb’2014.</strong></h6>
+                <h6><strong>Ans.</strong></h6>
+                <p style="font-weight: 400;">The required query is:</p>
+                <p style="background-color: #2E3243; color: #fff; padding: 15px; font-weight: 500;">Select * from Worker where year(JOINING_DATE) = 2014 and month(JOINING_DATE) = 2;</p>
+
+                <br><br>
+                <h6><strong>Q-21. Write an SQL query to fetch the count of employees working in the department ‘Admin’.</strong></h6>
+                <h6><strong>Ans.</strong></h6>
+                <p style="font-weight: 400;">The required query is:</p>
+                <p style="background-color: #2E3243; color: #fff; padding: 15px; font-weight: 500;">SELECT COUNT(*) FROM worker WHERE DEPARTMENT = 'Admin';</p>
+
+                <br><br>
+                <h6><strong>Q-22. Write an SQL query to fetch worker names with salaries >= 50000 and <= 100000.</strong></h6>
+                <h6><strong>Ans.</strong></h6>
+                <p style="font-weight: 400;">The required query is:</p>
+                <p style="background-color: #2E3243; color: #fff; padding: 15px; font-weight: 500;">SELECT CONCAT(FIRST_NAME, ' ', LAST_NAME) As Worker_Name, Salary
+FROM worker 
+WHERE WORKER_ID IN 
+(SELECT WORKER_ID FROM worker 
+WHERE Salary BETWEEN 50000 AND 100000);</p>
+
+                <br><br>
+                <h6><strong>Q-23. Write an SQL query to fetch the no. of workers for each department in descending order.</strong></h6>
+                <h6><strong>Ans.</strong></h6>
+                <p style="font-weight: 400;">The required query is:</p>
+                <p style="background-color: #2E3243; color: #fff; padding: 15px; font-weight: 500;">SELECT DEPARTMENT, count(WORKER_ID) No_Of_Workers 
+FROM worker 
+GROUP BY DEPARTMENT 
+ORDER BY No_Of_Workers DESC;</p>
+
+                <br><br>
+                <h6><strong>Q-24. Write an SQL query to print details of the Workers who are also Managers.</strong></h6>
+                <h6><strong>Ans.</strong></h6>
+                <p style="font-weight: 400;">The required query is:</p>
+                <p style="background-color: #2E3243; color: #fff; padding: 15px; font-weight: 500;">SELECT DISTINCT W.FIRST_NAME, T.WORKER_TITLE
+FROM Worker W
+INNER JOIN Title T
+ON W.WORKER_ID = T.WORKER_REF_ID
+AND T.WORKER_TITLE in ('Manager');</p>
+
+                <br><br>
+                <h6><strong>Q-25. Write an SQL query to fetch duplicate records having matching data in some fields of a table.</strong></h6>
+                <h6><strong>Ans.</strong></h6>
+                <p style="font-weight: 400;">The required query is:</p>
+                <p style="background-color: #2E3243; color: #fff; padding: 15px; font-weight: 500;">SELECT WORKER_TITLE, AFFECTED_FROM, COUNT(*)
+FROM Title
+GROUP BY WORKER_TITLE, AFFECTED_FROM
+HAVING COUNT(*) > 1;</p>
+
+                <br><br>
+                <h6><strong>Q-26. Write an SQL query to show only odd rows from a table.</strong></h6>
+                <h6><strong>Ans.</strong></h6>
+                <p style="font-weight: 400;">The required query is:</p>
+                <p style="background-color: #2E3243; color: #fff; padding: 15px; font-weight: 500;">SELECT * FROM Worker WHERE MOD (WORKER_ID, 2) <> 0;</p>
+
+                <br><br>
+                <h6><strong>Q-27. Write an SQL query to show only even rows from a table.</strong></h6>
+                <h6><strong>Ans.</strong></h6>
+                <p style="font-weight: 400;">The required query is:</p>
+                <p style="background-color: #2E3243; color: #fff; padding: 15px; font-weight: 500;">SELECT * FROM Worker WHERE MOD (WORKER_ID, 2) = 0;</p>
+
+                <br><br>
+                <h6><strong>Q-28. Write an SQL query to clone a new table from another table.</strong></h6>
+                <h6><strong>Ans.</strong></h6>
+                <p style="font-weight: 400;">The required query is:</p>
+                <p style="background-color: #2E3243; color: #fff; padding: 15px; font-weight: 500;">(SELECT * FROM Worker)
+INTERSECT
+(SELECT * FROM WorkerClone);</p>
+
+                <br><br>
+                <h6><strong>Q-29. Write an SQL query to fetch intersecting records of two tables.</strong></h6>
+                <h6><strong>Ans.</strong></h6>
+                <p style="font-weight: 400;">The required query is:</p>
+                <p style="background-color: #2E3243; color: #fff; padding: 15px; font-weight: 500;">SELECT * FROM Worker
+MINUS
+SELECT * FROM Title;</p>
+
+                <br><br>
+                <h6><strong>Q-30. Write an SQL query to show records from one table that another table does not have.</strong></h6>
+                <h6><strong>Ans.</strong></h6>
+                <p style="font-weight: 400;">The required query is:</p>
+                <p style="background-color: #2E3243; color: #fff; padding: 15px; font-weight: 500;">SELECT CURDATE();</p>
+
+                <br><br>
+                <h6><strong>Q-31. Write an SQL query to show the current date and time.</strong></h6>
+                <h6><strong>Ans.</strong></h6>
+                <p style="font-weight: 400;">The required query is:</p>
+                <p style="background-color: #2E3243; color: #fff; padding: 15px; font-weight: 500;">SELECT * FROM Worker ORDER BY Salary DESC LIMIT 10;</p>
+
+                <br><br>
+                <h6><strong>Q-32. Write an SQL query to show the top n (say 10) records of a table.</strong></h6>
+                <h6><strong>Ans.</strong></h6>
+                <p style="font-weight: 400;">The required query is:</p>
+                <p style="background-color: #2E3243; color: #fff; padding: 15px; font-weight: 500;">SELECT Salary FROM Worker ORDER BY Salary DESC LIMIT n-1,1;</p>
+
+                <br><br>
+                <h6><strong>Q-33. Write an SQL query to determine the nth (say n=5) highest salary from a table.</strong></h6>
+                <h6><strong>Ans.</strong></h6>
+                <p style="font-weight: 400;">The required query is:</p>
+                <p style="background-color: #2E3243; color: #fff; padding: 15px; font-weight: 500;">The following query is using the correlated subquery to return the 5th highest salary:
+
+SELECT Salary
+FROM Worker W1
+WHERE 4 = (
+ SELECT COUNT( DISTINCT ( W2.Salary ) )
+ FROM Worker W2
+ WHERE W2.Salary >= W1.Salary
+ );</p>
+
+                <br><br>
+                <h6><strong>Q-34. Write an SQL query to determine the 5th highest salary without using the TOP or limit method.</strong></h6>
+                <h6><strong>Ans.</strong></h6>
+                <p style="font-weight: 400;">The required query is:</p>
+                <p style="background-color: #2E3243; color: #fff; padding: 15px; font-weight: 500;">Select distinct W.WORKER_ID, W.FIRST_NAME, W.Salary 
+from Worker W, Worker W1 
+where W.Salary = W1.Salary 
+and W.WORKER_ID != W1.WORKER_ID;</p>
+
+                <br><br>
+                <h6><strong>Q-35. Write an SQL query to fetch the list of employees with the same salary.</strong></h6>
+                <h6><strong>Ans.</strong></h6>
+                <p style="font-weight: 400;">The required query is:</p>
+                <p style="background-color: #2E3243; color: #fff; padding: 15px; font-weight: 500;">Select max(Salary) from Worker 
+where Salary not in (Select max(Salary) from Worker);</p>
+
+                <br><br>
+                <h6><strong>Q-36. Write an SQL query to show the second-highest salary from a table.</strong></h6>
+                <h6><strong>Ans.</strong></h6>
+                <p style="font-weight: 400;">The required query is:</p>
+                <p style="background-color: #2E3243; color: #fff; padding: 15px; font-weight: 500;">select FIRST_NAME, DEPARTMENT from worker W where W.DEPARTMENT='HR' 
+union all 
+select FIRST_NAME, DEPARTMENT from Worker W1 where W1.DEPARTMENT='HR';</p>
+
+                <br><br>
+                <h6><strong>Q-37. Write an SQL query to show one row twice in the results from a table.</strong></h6>
+                <h6><strong>Ans.</strong></h6>
+                <p style="font-weight: 400;">The required query is:</p>
+                <p style="background-color: #2E3243; color: #fff; padding: 15px; font-weight: 500;">(SELECT * FROM Worker)
+INTERSECT
+(SELECT * FROM WorkerClone);</p>
+
+                <br><br>
+                <h6><strong>Q-38. Write an SQL query to fetch intersecting records of two tables.</strong></h6>
+                <h6><strong>Ans.</strong></h6>
+                <p style="font-weight: 400;">The required query is:</p>
+                <p style="background-color: #2E3243; color: #fff; padding: 15px; font-weight: 500;">SELECT *
+FROM WORKER
+WHERE WORKER_ID <= (SELECT count(WORKER_ID)/2 from Worker);</p>
+
+                <br><br>
+                <h6><strong>Q-39. Write an SQL query to fetch the first 50% of records from a table.</strong></h6>
+                <h6><strong>Ans.</strong></h6>
+                <p style="font-weight: 400;">The required query is:</p>
+                <p style="background-color: #2E3243; color: #fff; padding: 15px; font-weight: 500;">SELECT DEPARTMENT, COUNT(WORKER_ID) as 'Number of Workers' FROM Worker GROUP BY DEPARTMENT HAVING COUNT(WORKER_ID) < 5;</p>
+
+                <br><br>
+                <h6><strong>Q-40. Write an SQL query to fetch the departments that have less than five people in them.</strong></h6>
+                <h6><strong>Ans.</strong></h6>
+                <p style="font-weight: 400;">The required query is:</p>
+                <p style="background-color: #2E3243; color: #fff; padding: 15px; font-weight: 500;">SELECT DEPARTMENT, COUNT(DEPARTMENT) as 'Number of Workers' FROM Worker GROUP BY DEPARTMENT;</p>
+
+                <br><br>
+                <h6><strong>Q-41. Write an SQL query to show all departments along with the number of people in there.</strong></h6>
+                <h6><strong>Ans.</strong></h6>
+                <p style="font-weight: 400;">The required query is:</p>
+                <p style="background-color: #2E3243; color: #fff; padding: 15px; font-weight: 500;">Select * from Worker where WORKER_ID = (SELECT max(WORKER_ID) from Worker);</p>
+
+                <br><br>
+                <h6><strong>Q-42. Write an SQL query to show the last record from a table.</strong></h6>
+                <h6><strong>Ans.</strong></h6>
+                <p style="font-weight: 400;">The required query is:</p>
+                <p style="background-color: #2E3243; color: #fff; padding: 15px; font-weight: 500;">Select * from Worker where WORKER_ID = (SELECT min(WORKER_ID) from Worker);</p>
+
+                <br><br>
+                <h6><strong>Q-43. Write an SQL query to fetch the first row of a table.</strong></h6>
+                <h6><strong>Ans.</strong></h6>
+                <p style="font-weight: 400;">The required query is:</p>
+                <p style="background-color: #2E3243; color: #fff; padding: 15px; font-weight: 500;">SELECT * FROM Worker WHERE WORKER_ID <=5
+UNION
+SELECT * FROM (SELECT * FROM Worker W order by W.WORKER_ID DESC) AS W1 WHERE W1.WORKER_ID <=5;
+ </p>
+
+                <br><br>
+                <h6><strong>Q-44. Write an SQL query to fetch the last five records from a table.</strong></h6>
+                <h6><strong>Ans.</strong></h6>
+                <p style="font-weight: 400;">The required query is:</p>
+                <p style="background-color: #2E3243; color: #fff; padding: 15px; font-weight: 500;">SELECT t.DEPARTMENT,t.FIRST_NAME,t.Salary from(SELECT max(Salary) as TotalSalary,DEPARTMENT from Worker group by DEPARTMENT) as TempNew 
+Inner Join Worker t on TempNew.DEPARTMENT=t.DEPARTMENT 
+ and TempNew.TotalSalary=t.Salary;</p>
+
+                <br><br>
+                <h6><strong>Q-45. Write an SQL query to print the name of employees having the highest salary in each department.</strong></h6>
+                <h6><strong>Ans.</strong></h6>
+                <p style="font-weight: 400;">The required query is:</p>
+                <p style="background-color: #2E3243; color: #fff; padding: 15px; font-weight: 500;">SELECT distinct Salary from worker a WHERE 3 >= (SELECT count(distinct Salary) from worker b WHERE a.Salary <= b.Salary) order by a.Salary desc;</p>
+
+                <br><br>
+                <h6><strong>Q-46. Write an SQL query to fetch three max salaries from a table.</strong></h6>
+                <h6><strong>Ans.</strong></h6>
+                <p style="font-weight: 400;">The required query is:</p>
+                <p style="background-color: #2E3243; color: #fff; padding: 15px; font-weight: 500;">SELECT distinct Salary from worker a WHERE 3 >= (SELECT count(distinct Salary) from worker b WHERE a.Salary >= b.Salary) order by a.Salary desc;</p>
+
+                <br><br>
+                <h6><strong>Q-47. Write an SQL query to fetch three min salaries from a table.</strong></h6>
+                <h6><strong>Ans.</strong></h6>
+                <p style="font-weight: 400;">The required query is:</p>
+                <p style="background-color: #2E3243; color: #fff; padding: 15px; font-weight: 500;">SELECT distinct Salary from worker a WHERE n >= (SELECT count(distinct Salary) from worker b WHERE a.Salary <= b.Salary) order by a.Salary desc;</p>
+
+                <br><br>
+                <h6><strong>Q-48. Write an SQL query to fetch nth max salaries from a table.</strong></h6>
+                <h6><strong>Ans.</strong></h6>
+                <p style="font-weight: 400;">The required query is:</p>
+                <p style="background-color: #2E3243; color: #fff; padding: 15px; font-weight: 500;">SELECT distinct Salary from worker a WHERE n >= (SELECT count(distinct Salary) from worker b WHERE a.Salary <= b.Salary) order by a.Salary desc;</p>
+
+                <br><br>
+                <h6><strong>Q-49. Write an SQL query to fetch departments along with the total salaries paid for each of them.</strong></h6>
+                <h6><strong>Ans.</strong></h6>
+                <p style="font-weight: 400;">The required query is:</p>
+                <p style="background-color: #2E3243; color: #fff; padding: 15px; font-weight: 500;"> SELECT DEPARTMENT, sum(Salary) from worker group by DEPARTMENT;</p>
+
+                <br><br>
+                <h6><strong>Q-50. Write an SQL query to fetch the names of workers who earn the highest salary.</strong></h6>
+                <h6><strong>Ans.</strong></h6>
+                <p style="font-weight: 400;">The required query is:</p>
+                <p style="background-color: #2E3243; color: #fff; padding: 15px; font-weight: 500;">SELECT FIRST_NAME, SALARY from Worker WHERE SALARY=(SELECT max(SALARY) from Worker);</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <footer class="text-center text-lg-start bg-white text-muted">
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+            <!-- Left -->
+            <div class="me-5 d-none d-lg-block">
+                <span>Get connected with us on social networks:</span>
+            </div>
+            <!-- Left -->
+
+            <!-- Right -->
+            <div>
+                <a href="" class="me-4 link-secondary">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="" class="me-4 link-secondary">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="" class="me-4 link-secondary">
+                    <i class="fab fa-google"></i>
+                </a>
+                <a href="" class="me-4 link-secondary">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="" class="me-4 link-secondary">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="" class="me-4 link-secondary">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+            <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+
+        <!-- Section: Links  -->
+        <section class="">
+            <div class="container text-center text-md-start mt-5">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <!-- Content -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            <i class="fas fa-gem me-3 text-secondary"></i>E-Learners
+                        </h6>
+                        <p>
+                            "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
+                            velit..."
+                            "There is no one who loves pain itself, who seeks after it and wants to have it, simply
+                            because it is pain..."
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Courses
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">HTML & CSS</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">JavaScript</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">MySQL</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">PHP</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Useful links
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">Pricing</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Settings</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Help</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                        <p><i class="fas fa-home me-3 text-secondary"></i> New York, NY 10012, US</p>
+                        <p>
+                            <i class="fas fa-envelope me-3 text-secondary"></i>
+                            info@example.com
+                        </p>
+                        <p><i class="fas fa-phone me-3 text-secondary"></i> + 01 234 567 88</p>
+                        <p><i class="fas fa-print me-3 text-secondary"></i> + 01 234 567 89</p>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+            </div>
+        </section>
+        <!-- Section: Links  -->
+
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+            © 2021 Copyright:
+            <a class="text-reset fw-bold" href="">Bootstrap.com</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+</body>
+
+</html>
