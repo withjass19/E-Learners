@@ -786,6 +786,19 @@ body {
     right: 10px;
     font-size: 12px;
   }
+  .tutorial-section-list li .Theory {
+    padding: 3px 10px;
+    border-radius: 4px;
+    background: #0779e4;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: 100px;
+    font-size: 12px;
+  }
   
   .tutorial-section-list li:hover {
     background: #f8f9fa;
