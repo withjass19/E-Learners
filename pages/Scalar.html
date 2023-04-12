@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>E-Learners</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../style.css">
+    
+</head>
+<body>
+    <header class="site-navbar light site-navbar-target" role="banner">
+        <div class="container">
+            <div class="row align-items-center position-relative">
+                <div class="col-3">
+                    <div class="site-logo">
+                        <a href="index.html"><strong>E-Learners</strong></a>
+                    </div>
+                </div>
+
+                <div class="col-9 text-right">
+                    <nav class="site-navigation text-right ml-auto d-none d-lg-block" role="navigation">
+                        <ul class="site-menu main-menu js-clone-nav ml-auto ">
+                          <li><a href="../index.html" class="nav-link">Home</a></li>
+                          <li class="active"><a href="../Course.html" class="nav-link">Courses</a></li>
+                          <li><a href="#" class="nav-link">Blog</a></li>
+                          <li><a href="../About.html" class="nav-link">About</a></li>
+                          <li><a href="../contact.html" class="nav-link">Contact</a></li>
+                        </ul>
+                      </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="site-section-cover overlay" style="background-image: url('../images/hero_bg.jpg');">
+        
+        <div class="container">
+          <div class="row align-items-center justify-content-center">
+            <div class="col-lg-10 text-center">
+              <h1 style="font-weight: 600;">Distinct Keyword and Scalar Functions</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="site-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-9">
+
+
+
+
+
+
+                
+                <div class="mb-5">
+                       
+                    <h1 class="mb-5">Distinct Keyword and Scalar Functions</h1>
+                    <!-- <img class="img-fluid rounded w-100 mb-4" src="img/carousel-1.jpg" alt="Image"> -->
+                    <h5 class="mb-4">SQL Select Distinct Constraint</h5>
+                    <p> 
+                        The SELECT DISTINCT statement is used to return only distinct (different) values.
+                        <br>
+                        Inside a table, a column often contains many duplicate values; and sometimes you only want to list the different (distinct) values.
+                    <br>
+                Syntax : </p>
+                <div class="syntax">
+
+                    <p>SELECT DISTINCT column1, column2, ... <br>
+                        FROM table_name;
+                    </p>
+                   </div>
+                   <br>
+                    <h5 class="mb-4">SQL Scalar Function</h5>
+                    <p> 
+                        These functions are based on user input, these returns single value. <br>
+                        1. UCASE() <br>
+                        2. LCASE()<br>
+                        3. MID()<br>
+                        4. LEN()<br>
+                        5. ROUND()<br>
+                        6. NOW()<br>
+                        7. FORMAT()<br>
+                        </p>
+                  
+                   
+                 
+                  <br>
+                  
+                  <h5 class="mb-4">SQL Date Function</h5>
+                  <p>In SQL, dates are complicated for newbies, since while working with a database, the format of the data in the table must be matched with the input data to insert. In various scenarios instead of date, datetime (time is also involved with date) is used. 
+            <br>
+        Syntax : </p>
+                  <div class="syntax">
+                    <p>Now() : Returns the current date and time. <br>
+                        Curdate() :  Returns the current date. <br>
+                        Curtime() :  Returns the current time. <br>
+                        Date() : Extracts the date part of a date or date/time expression. <br>
+                        Extract() : Returns a single part of a date/time. 
+                    </p>
+                  </div>
+                  <br>
+                 
+                 <h5 class="mb-4">SQL Math Functions</h5>
+                <p>Mathematical functions are very important in SQL to implement different mathematical concepts in queries. <br>
+                Syntax : </p>
+                <div class="syntax">
+                  <p>ABS(X) : This function returns the absolute value of X. <br>
+                    MOD(x,y) : The variable X is divided by Y and their remainder is returned. <br>
+                    FLOOR(x) : This returns the largest integer value that is either less than X or equal to it. <br>
+                    CEIL(x) : This returns the smallest integer value that is either more than X or equal to it. <br>
+                    ROUND(x) : This function returns the value of X rounded off to the whole integer that is nearest to it. 
+                  </p>
+                </div>
+                <br>
+               
+              </div> 
+            
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+            <div class="col-md-3">
+                <div class="box-side mb-3">
+                  <a href="./quiz.html"><img src="../images/img_1_horizontal.jpg" alt="Image" class="img-fluid"></a>
+                  <h3><a href="#">Database Management System Quiz</a></h3>
+                  <p class="mb-0 text-muted">
+                    <span class="mr-2 mb-2">1hr 24m</span> 
+                    <span class="mr-2 mb-2">Advanced</span> 
+                    <span class="mr-2 mb-2">April 13, 2023</span> 
+                  </p>
+                </div>
+                <div class="box-side mb-3">
+                  <a href="./practice.html"><img src="../images/img_1_horizontal.jpg" alt="Image" class="img-fluid"></a>
+                  <h3><a href="#">Practical Questions</a></h3>
+                  <p class="mb-0 text-muted">
+                    <span class="mr-2 mb-2">1hr 24m</span> 
+                    <span class="mr-2 mb-2">Advanced</span> 
+                    <span class="mr-2 mb-2">April 13, 2023</span> 
+                  </p>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="site-section bg-light">
+        <div class="container">
+          
+          <div class="row">
+            <div class="col-12">
+              <div class="heading mb-4">
+                <span class="caption">Related</span>
+                <h2>Related Tutorials</h2>
+              </div>
+            </div>
+            <div class="col-lg-8">
+              <div class="d-flex tutorial-item mb-4">
+                <div class="img-wrap">
+                  <a href="#"><img src="../images/img_1.jpg" alt="Image" class="img-fluid"></a>
+                </div>
+                <div>
+                  <h3><a href="#">Learning HTML</a></h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam tempore, saepe numquam. Doloremque culpa tenetur facere quisquam, animi illum possimus!</p>
+                  
+                  <p class="mb-0">
+                    <span class="brand-react h5"></span>
+                    <span class="brand-javascript h5"></span>
+                  </p>
+                  <p class="meta">
+                    <span class="mr-2 mb-2">1hr 24m</span>
+                    <span class="mr-2 mb-2">Advanced</span>
+                    <span class="mr-2 mb-2">Jun 18, 2020</span>
+                  </p>
+                  <p><a href="tutorial-single.html" class="btn btn-primary custom-btn">View</a></p>
+                </div>
+              </div>
+
+              <div class="d-flex tutorial-item mb-4">
+                <div class="img-wrap">
+                  <a href="#"><img src="../images/img_2.jpg" alt="Image" class="img-fluid"></a>
+                </div>
+                <div>
+                  <h3><a href="#">Learning CSS3</a></h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam tempore, saepe numquam. Doloremque culpa tenetur facere quisquam, animi illum possimus!</p>
+
+                  <p class="mb-0">
+                    <span class="brand-angular h5"></span>
+                    <span class="brand-javascript h5"></span>
+                  </p>
+                  <p class="meta">
+                    <span class="mr-2 mb-2">1hr 24m</span>
+                    <span class="mr-2 mb-2">Advanced</span>
+                    <span class="mr-2 mb-2">Jun 18, 2020</span>
+                  </p>
+                  
+                  <p><a href="tutorial-single.html" class="btn btn-primary custom-btn">View</a></p>
+                </div>
+              </div>
+
+              <div class="d-flex tutorial-item mb-4">
+                <div class="img-wrap">
+                  <a href="#"><img src="../images/img_3.jpg" alt="Image" class="img-fluid"></a>
+                </div>
+                <div>
+                  <h3><a href="#">Learning JavaScript</a></h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam tempore, saepe numquam. Doloremque culpa tenetur facere quisquam, animi illum possimus!</p>
+                  <p class="mb-0">
+                    <span class="brand-adobephotoshop h5"></span>
+                  </p>
+                  <p class="meta">
+                    <span class="mr-2 mb-2">1hr 24m</span>
+                    <span class="mr-2 mb-2">Advanced</span>
+                    <span class="mr-2 mb-2">Jun 18, 2020</span>
+                  </p>
+                  <p><a href="tutorial-single.html" class="btn btn-primary custom-btn">View</a></p>
+                </div>
+              </div>
+
+              <div class="d-flex tutorial-item mb-4">
+                <div class="img-wrap">
+                  <a href="#"><img src="../images/img_4.jpg" alt="Image" class="img-fluid"></a>
+                </div>
+                <div>
+                  <h3><a href="#">Advance Javascript</a></h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam tempore, saepe numquam. Doloremque culpa tenetur facere quisquam, animi illum possimus!</p>
+                  <p class="mb-0">
+                    <span class="brand-adobeillustrator h5"></span>
+                  </p>
+                  <p class="meta">
+                    <span class="mr-2 mb-2">1hr 24m</span>
+                    <span class="mr-2 mb-2">Advanced</span>
+                    <span class="mr-2 mb-2">Jun 18, 2020</span>
+                  </p>
+                  <p><a href="tutorial-single.html" class="btn btn-primary custom-btn">View</a></p>
+                </div>
+              </div>
+
+
+              <div class="custom-pagination">
+                <ul class="list-unstyled">
+                  <li><a href="#"><span>1</span></a></li>
+                  <li><span>2</span></li>
+                  <li><a href="#"><span>3</span></a></li>
+                  <li><a href="#"><span>4</span></a></li>
+                  <li><a href="#"><span>5</span></a></li>
+                </ul>
+              </div>
+            </div>
+
+
+            <div class="col-lg-4">
+              <div class="box-side mb-3">
+                <a href="../Course.html"><img src="../images/img_1_horizontal.jpg" alt="Image" class="img-fluid"></a>
+                <h3><a href="../Course.html">Learning Mysql</a></h3>
+              </div>  
+              <div class="box-side mb-3">
+                <a href="#"><img src="../images/img_2_horizontal.jpg" alt="Image" class="img-fluid"></a>
+                <h3><a href="#">Learning Php</a></h3>
+              </div>  
+              <div class="box-side">
+                <a href="#"><img src="../images/img_3_horizontal.jpg" alt="Image" class="img-fluid"></a>
+                <h3><a href="#">Learning React</a></h3>
+              </div>  
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <footer class="text-center text-lg-start bg-white text-muted">
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+          <!-- Left -->
+          <div class="me-5 d-none d-lg-block">
+            <span>Get connected with us on social networks:</span>
+          </div>
+          <!-- Left -->
+      
+          <!-- Right -->
+          <div>
+            <a href="" class="me-4 link-secondary">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="" class="me-4 link-secondary">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="" class="me-4 link-secondary">
+              <i class="fab fa-google"></i>
+            </a>
+            <a href="" class="me-4 link-secondary">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="" class="me-4 link-secondary">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="" class="me-4 link-secondary">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+          <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+      
+        <!-- Section: Links  -->
+        <section class="">
+          <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <!-- Content -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  <i class="fas fa-gem me-3 text-secondary"></i>E-Learners
+                </h6>
+                <p>
+                    "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+                    "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."
+                </p>
+              </div>
+              <!-- Grid column -->
+      
+              <!-- Grid column -->
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Courses
+                </h6>
+                <p>
+                  <a href="#!" class="text-reset">HTML & CSS</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">JavaScript</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">MySQL</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">PHP</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+      
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Useful links
+                </h6>
+                <p>
+                  <a href="#!" class="text-reset">Pricing</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Settings</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Help</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+      
+              <!-- Grid column -->
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                <p><i class="fas fa-home me-3 text-secondary"></i> New York, NY 10012, US</p>
+                <p>
+                  <i class="fas fa-envelope me-3 text-secondary"></i>
+                  info@example.com
+                </p>
+                <p><i class="fas fa-phone me-3 text-secondary"></i> + 01 234 567 88</p>
+                <p><i class="fas fa-print me-3 text-secondary"></i> + 01 234 567 89</p>
+              </div>
+              <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+          </div>
+        </section>
+        <!-- Section: Links  -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
+          © 2021 Copyright:
+          <a class="text-reset fw-bold" href="">Bootstrap.com</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+</body>
+</html>
